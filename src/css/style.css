@@ -87,7 +87,8 @@
 
 #contact article {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 10px auto 0px auto;
+
 }
 
 #contact h2{
