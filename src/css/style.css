@@ -1,6 +1,6 @@
-/*  */
+/* importamos la fuente de google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
-
+/* damos un reset a los valores de la pagina */
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@
     font-style: normal;
     ;
 }
-
+/* rooteamos variables de color para un uso mas optmimo dentro del codigo */
 :root {
     --color-barras: rgba(0, 0, 0, 0.6);
     --color-pp: rgb(0, 0, 0);
@@ -20,12 +20,12 @@
     --color-h2: #B8860B;
     --color-text: white;
 }
-
+/* clase para ajustar background del main */
 .background-main {
     background-color: var(--backgr-main);
 }
 
-
+/* clase para ajustar estilos del header, usamos herencia para dar propiedades independientes de algunos elementos */
 .encabezado {
     background-color: var(--color-pp);
     position: fixed;
@@ -57,7 +57,7 @@
     color: var(--color-h2);
     text-decoration: none;
 }
-
+/* clase para ajustar las cajas que almacenan los titulos de las sections*/
 .bar {
     background-color: var(--color-barras);
     color: var(--color-h2);
@@ -69,7 +69,7 @@
     top: 7.5%;
     z-index: 2;
 }
-
+/* clase para dar estilos a la cada parte del catalogo, usamos herencia para dar propiedades independientes de algunos elementos */
 .catalogo {
     padding: 2% 1%;
     display: flex;
@@ -111,7 +111,7 @@
     width: 100%;
     height: 250px;
 }
-
+/* id para dar estilos a la zona de contacto */
 #contact {
     text-align: center;
 }
@@ -157,7 +157,7 @@
     color: var(--color-h2);
     text-align: center;
 }
-
+/* damos estilos al footer de manera directa */
 footer {
     background-color: var(--color-pp);
     width: 100%;
